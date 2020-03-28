@@ -1,0 +1,14 @@
+.Images {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+}
+
+.img-cover {
+    height: 500px;
+    width: auto;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
