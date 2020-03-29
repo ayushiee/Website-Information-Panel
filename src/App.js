@@ -1,14 +1,14 @@
 import React from 'react';
 import {OrgLogo} from './static';
-import TopBar from './components/Topbar';
-import RowTwo from './components/RowTwo';
+import UpperBanner from './components/UpperBanner';
+import LowerBanner from './components/LowerBanner';
 import './App.css'
 
 function App() {
   return (
     <div className="App">
-        <TopBar data={OrgLogo} />
-        <RowTwo />
+        <UpperBanner data={OrgLogo} />
+        <LowerBanner />
         
     </div>
   );

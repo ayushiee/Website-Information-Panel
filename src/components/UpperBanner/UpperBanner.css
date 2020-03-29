@@ -1,0 +1,24 @@
+.text-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: var(--font-family);
+    justify-content: center;
+}
+
+.text-label>h1 {
+    align-self: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.org-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 10px;
+    padding: 20px;
+    
+}
+
