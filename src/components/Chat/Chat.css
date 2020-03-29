@@ -1,0 +1,29 @@
+.chat-button-container>button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    align-content: center;
+    border: none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    padding: 5px 2px;
+}
+
+.chat-button-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: grey;
+    margin: 5px 30px;
+}
+
+.chat-button-container>button:hover {
+    background-color: var(--primary-color);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transform: translateY(-3px);
+}

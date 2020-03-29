@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImgColumn.css';
-
+// import Img from 'src/assets/Image-1';
 
 function ImgColumn() {
     return (
