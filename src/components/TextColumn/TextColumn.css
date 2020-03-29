@@ -19,7 +19,7 @@
     margin-bottom: 40px;
 }
 
-h2 {
+.info-text>h2 {
     font-weight: 500;
     color: var(--primary-color);
     margin-bottom: 25px;
