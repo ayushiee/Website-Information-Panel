@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoMdChatboxes } from 'react-icons/io';
-import './Chat.css';
+import './ChatFab.css';
 
 function Chat() {
     return (

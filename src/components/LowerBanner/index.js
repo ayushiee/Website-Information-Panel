@@ -2,14 +2,14 @@ import React from 'react';
 import ImgColumn from '../ImgColumn';
 import TextColumn from '../TextColumn';
 import './LowerBanner.css';
-import Chat from '../Chat';
+import ChatFab from '../ChatFab';
 
 function LowerBanner() {
     return (
         <div className='row'>
             <ImgColumn />
             <TextColumn />
-            <Chat />
+            <ChatFab />
         </div>
     )
 }

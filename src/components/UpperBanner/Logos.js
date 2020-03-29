@@ -1,20 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './UpperBanner.css';
 
 function Logos({ data }) {
-    const [width, setWidth] = useState(140)
-    const [height, setHeight] = useState(80)
-
     return (
-        <div className="org-logo">
-
+        <div className='org-logo'>
             {data.map(({ uri, name }) => (
                 <img
                     src={uri}
                     alt={name}
-                    className="org-logo-image"
-                    width={width}
-                    height={height}
+                    className='org-logo-image'
                 />
             ))}
         </div>

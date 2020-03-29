@@ -4,7 +4,7 @@ import './UpperBanner.css';
 
 function UpperBanner({ data }) {
     return (
-        <div className="text-label" >
+        <div className='text-label' >
             <h1> Trusted by Industry Leading Organisations </h1>
             <Logos data={data} />
         </div>

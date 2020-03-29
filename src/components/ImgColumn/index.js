@@ -1,11 +1,11 @@
 import React from 'react';
 import './ImgColumn.css';
-// import Img from 'src/assets/Image-1';
+import Img from '../../assets/Image-1.png';
 
 function ImgColumn() {
     return (
         <div className='Images'>
-            <img src='https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80'
+            <img src={Img}
                 className='img-cover'
                 alt='Working'
             />

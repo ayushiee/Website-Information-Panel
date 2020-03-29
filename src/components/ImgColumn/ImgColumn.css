@@ -3,12 +3,10 @@
     flex: 1;
     align-items: center;
     justify-content: center;
-    padding: 60px 0px;
+    padding-top: 10px;
 }
 
 .img-cover {
-    height: 500px;
+    height: 550px;
     width: auto;
-    border-bottom-right-radius: 100px;
-    border-top-left-radius: 100px;
 }
